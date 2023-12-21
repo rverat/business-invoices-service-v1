@@ -6,7 +6,7 @@ spring:
     location: classpath:banner.txt
   data:
     mongodb:
-      uri: mongodb://localhost:27017/coursesdb
+      uri: mongodb://localhost:27017/coursesdb #connection to mongo db
   application:
     name: business-invoices-v1
   kafka:
